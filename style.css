@@ -79,3 +79,33 @@ img:hover{
 .select:hover{
     cursor: pointer;
 }
+
+@media (max-width: 480px) {
+    img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .choices {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .score {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .score h4 {
+        font-size: 1rem;
+    }
+
+    .comp-score p, .player-score p {
+        font-size: 1.5rem;
+    }
+
+    .select {
+        font-size: 1rem;
+        height: 40px;
+    }
+}
